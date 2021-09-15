@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    background-color: #fffc51;
+}
+h2{
+    padding: 20px;
+    font-size: 20px;
+}
+
+a:active{
+    color: green;
+}
+a:visited{
+    color: darkgreen;
+}
+a:hover{
+    text-decoration: none;
+    color: maroon;
+}
+.button{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+/* START of FILM.html page */
+
+.top{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    border-bottom: 2px solid dodgerblue;
+}
+.top_img{
+    display: flex;
+    padding: 20px;
+}
+.top_txt{
+ display: flex;
+    align-items: center;
+}
+#aphisha{
+    border: 3px solid green;
+    width:300px;
+    height:400px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 200px;
+    flex:1;
+    border-bottom: 2px solid dodgerblue;
+}
+.middle_right_column{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.middle_left_column{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.film_photo{
+    border: 3px solid chocolate;
+    margin: 40px;
+    width: 320px;
+    height: 240px;
+}
+.bot{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    padding-left: 15px;
+    text-indent: 15px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+/* END OF FILM.html page */

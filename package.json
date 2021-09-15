@@ -1,0 +1,19 @@
+{
+  "name": "pz_1_4",
+  "version": "1.0.0",
+  "description": "WEB pages include film.html and book.html ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pz"
+  ],
+  "author": "Ruslan Kovba",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
