@@ -100,3 +100,8 @@ a:hover{
 .button{
     margin: 20px;
 }
+.index_div_txt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
