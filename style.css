@@ -91,3 +91,12 @@ a:hover{
 }
 
 /* END OF FILM.html page */
+/* START index.html page */
+
+.index_div{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin: 20px;
+}
